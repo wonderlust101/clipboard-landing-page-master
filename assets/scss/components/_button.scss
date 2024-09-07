@@ -1,0 +1,28 @@
+.button {
+  border-radius: 4rem;
+  padding: 0.9rem 2.75rem;
+  text-align: center;
+  cursor: pointer;
+  
+  &--blue {
+    color: var(--clr-white);
+    background-color: var(--clr-primary-color-blue-500);
+    box-shadow: 0 3px 0 var(--clr-primary-color-blue-600);
+    
+    &:hover {
+      background-color: var(--clr-primary-color-blue-400);
+      box-shadow: 0 3px 0 var(--clr-primary-color-blue-500);
+    }
+  }
+  
+  &--green {
+    color: var(--clr-white);
+    background-color: var(--clr-primary-color-cyan-500);
+    box-shadow: 0 3px 0 var(--clr-primary-color-cyan-600);
+
+    &:hover {
+      background-color: var(--clr-primary-color-cyan-400);
+      box-shadow: 0 3px 0 var(--clr-primary-color-cyan-500);
+    }
+  }
+}
