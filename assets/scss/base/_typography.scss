@@ -38,6 +38,11 @@ p {
 
 a {
   font-weight: 600;
+  text-decoration: none;
+
+  @include a.breakpoint(medium) {
+    font-size: 1.125rem;
+  }
 }
 
 li {

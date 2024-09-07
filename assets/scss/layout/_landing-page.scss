@@ -18,6 +18,10 @@
     gap: 6rem;
     margin-bottom: 10rem;
     width: 100%;
+    
+    @include a.breakpoint(medium) {
+      gap: 8rem;
+    }
   }
 
   &__buttons {
